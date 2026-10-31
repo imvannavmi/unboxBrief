@@ -34,11 +34,11 @@ type Brief = {
 
 const categories: Category[] = [
   { id: "web", name: "Web Development", subtitle: "Frontend / Backend", icon: "</>" },
-  { id: "mobile", name: "Mobile Development", subtitle: "iOS / Android", icon: "â–£" },
-  { id: "data", name: "Data & AI", subtitle: "Data Processing / AI", icon: "â—‰" },
-  { id: "game", name: "Game Development", subtitle: "Game Engine / Gameplay", icon: "âŒ˜" },
-  { id: "cloud", name: "DevOps & Cloud", subtitle: "Infrastructure / Deployment", icon: "â˜" },
-  { id: "other", name: "Lainnya", subtitle: "Tools / Scripting", icon: "â€¢â€¢â€¢" },
+  { id: "mobile", name: "Mobile Development", subtitle: "iOS / Android", icon: "▣" },
+  { id: "data", name: "Data & AI", subtitle: "Data Processing / AI", icon: "◉" },
+  { id: "game", name: "Game Development", subtitle: "Game Engine / Gameplay", icon: "⌘" },
+  { id: "cloud", name: "DevOps & Cloud", subtitle: "Infrastructure / Deployment", icon: "☁" },
+  { id: "other", name: "Lainnya", subtitle: "Tools / Scripting", icon: "•••" },
 ];
 
 const briefs: Brief[] = [
@@ -50,7 +50,7 @@ const briefs: Brief[] = [
     difficulty: "Hard",
     deadline: "2 hari",
     twist: "Sistem rekomendasi harus tetap berguna tanpa layanan AI berbayar.",
-    client: "Shopera â€” platform belanja online untuk brand lokal.",
+    client: "Shopera — platform belanja online untuk brand lokal.",
     problem: "Pelanggan kesulitan menemukan produk yang sesuai dengan minat mereka. Pemilik toko juga membutuhkan cara untuk memahami produk yang paling diminati.",
     mission: "Bangun platform belanja dengan katalog produk, pencarian, keranjang, dan rekomendasi produk sederhana.",
     projectOverview: "Shopera ingin mengembangkan pengalaman belanja online yang membantu pelanggan menemukan produk tanpa harus menelusuri seluruh katalog secara manual. Saat ini, pelanggan dapat melewatkan produk relevan karena katalog yang semakin besar membuat pencarian kurang efisien. Pemilik toko juga membutuhkan cara untuk menampilkan produk terkait dan memahami hubungan antara kategori serta minat pelanggan. Bangun aplikasi web responsif yang mengintegrasikan katalog, pencarian, keranjang belanja, dan rekomendasi berbasis aturan atau interaksi sederhana. Solusi harus tetap berfungsi tanpa layanan AI berbayar, menjelaskan kondisi ketika rekomendasi belum tersedia, dan menyediakan data contoh agar seluruh alur dapat diuji.",
@@ -58,18 +58,18 @@ const briefs: Brief[] = [
     requirements: ["Katalog dan pencarian produk", "Keranjang belanja", "Rekomendasi produk", "Responsive layout", "Validasi input dan error state"],
     deliverables: ["Source code di repository Git", "README dan instruksi instalasi", "Screenshot fitur utama", "Demo aplikasi yang bisa dijalankan"],
     skills: [
-      "Frontend Development â€” katalog, pencarian, dan keranjang responsif.",
-      "CRUD \u0026 Database Design â€” struktur produk dan data keranjang.",
-      "Recommendation Logic â€” rekomendasi berdasarkan kategori atau interaksi.",
-      "Input Validation â€” validasi input dan penanganan error.",
-      "Testing \u0026 Git â€” pengujian alur utama dan version control."
+      "Frontend Development — katalog, pencarian, dan keranjang responsif.",
+      "CRUD \u0026 Database Design — struktur produk dan data keranjang.",
+      "Recommendation Logic — rekomendasi berdasarkan kategori atau interaksi.",
+      "Input Validation — validasi input dan penanganan error.",
+      "Testing \u0026 Git — pengujian alur utama dan version control."
     ],
     tools: [
-      "Next.js atau React â€” antarmuka web.",
-      "Node.js â€” logika backend atau API jika diperlukan.",
-      "SQLite atau PostgreSQL â€” penyimpanan data.",
-      "Git \u0026 GitHub â€” version control dan dokumentasi.",
-      "Vitest atau Jest â€” pengujian fungsi penting."
+      "Next.js atau React — antarmuka web.",
+      "Node.js — logika backend atau API jika diperlukan.",
+      "SQLite atau PostgreSQL — penyimpanan data.",
+      "Git \u0026 GitHub — version control dan dokumentasi.",
+      "Vitest atau Jest — pengujian fungsi penting."
     ],
   },
   {
@@ -80,7 +80,7 @@ const briefs: Brief[] = [
     difficulty: "Medium",
     deadline: "3 hari",
     twist: "Dua pengguna tidak boleh mendapatkan slot waktu yang sama.",
-    client: "TripNest â€” startup yang membantu wisatawan memesan aktivitas lokal.",
+    client: "TripNest — startup yang membantu wisatawan memesan aktivitas lokal.",
     problem: "Pemesanan aktivitas masih dilakukan melalui pesan manual, sehingga jadwal sering bentrok dan status pesanan sulit dilacak.",
     mission: "Buat sistem booking dengan daftar aktivitas, pilihan jadwal, dan status pemesanan.",
     projectOverview: "TripNest mengelola pemesanan aktivitas lokal yang memiliki jadwal dan kapasitas terbatas. Pemesanan melalui pesan manual menyulitkan staf untuk mengetahui slot yang masih tersedia dan meningkatkan risiko dua pelanggan memesan waktu yang sama. Pelanggan membutuhkan informasi aktivitas, jadwal yang jelas, serta konfirmasi status pemesanan tanpa harus menghubungi staf berulang kali. Bangun sistem booking yang memungkinkan pengguna memilih aktivitas dan slot, mengirim data pemesan, serta melihat status pesanannya. Aturan ketersediaan harus diperiksa kembali saat pemesanan disimpan agar slot yang sudah penuh tidak dapat dipesan lagi.",
@@ -88,18 +88,18 @@ const briefs: Brief[] = [
     requirements: ["Daftar aktivitas", "Kalender atau pilihan slot", "Form booking", "Pencegahan jadwal bentrok", "Halaman status pesanan"],
     deliverables: ["Source code", "README", "Screenshot alur booking", "Demo aplikasi"],
     skills: [
-      "Web Development â€” halaman aktivitas dan formulir booking.",
-      "CRUD \u0026 Database Design â€” pengelolaan aktivitas, slot, dan booking.",
-      "Business Logic â€” mencegah pemesanan slot yang sama.",
-      "Input Validation â€” memvalidasi tanggal dan data pemesan.",
-      "Testing â€” menguji bentrok jadwal dan perubahan status."
+      "Web Development — halaman aktivitas dan formulir booking.",
+      "CRUD \u0026 Database Design — pengelolaan aktivitas, slot, dan booking.",
+      "Business Logic — mencegah pemesanan slot yang sama.",
+      "Input Validation — memvalidasi tanggal dan data pemesan.",
+      "Testing — menguji bentrok jadwal dan perubahan status."
     ],
     tools: [
-      "Next.js atau React â€” antarmuka booking.",
-      "Node.js dan Express â€” API backend.",
-      "SQLite atau PostgreSQL â€” data slot dan pemesanan.",
-      "Git \u0026 GitHub â€” version control.",
-      "Postman â€” pengujian API jika menggunakan REST."
+      "Next.js atau React — antarmuka booking.",
+      "Node.js dan Express — API backend.",
+      "SQLite atau PostgreSQL — data slot dan pemesanan.",
+      "Git \u0026 GitHub — version control.",
+      "Postman — pengujian API jika menggunakan REST."
     ],
   },
   {
@@ -110,7 +110,7 @@ const briefs: Brief[] = [
     difficulty: "Medium",
     deadline: "5 hari",
     twist: "Tampilkan peringatan ketika stok mencapai batas minimum.",
-    client: "GudangKita â€” usaha distribusi yang masih mencatat stok secara manual.",
+    client: "GudangKita — usaha distribusi yang masih mencatat stok secara manual.",
     problem: "Selisih catatan stok membuat staf kesulitan mengetahui barang yang hampir habis.",
     mission: "Bangun dashboard inventaris untuk mencatat produk, perubahan stok, dan peringatan stok rendah.",
     projectOverview: "GudangKita mendistribusikan barang ke berbagai pelanggan dan masih bergantung pada pencatatan stok yang tersebar. Perbedaan antara stok fisik dan catatan membuat staf terlambat mengetahui barang yang hampir habis atau jumlah yang tidak wajar. Tim membutuhkan satu dashboard yang menjadi tempat untuk memeriksa produk, menelusuri perubahan kuantitas, dan memprioritaskan pengadaan. Bangun sistem inventaris yang mendukung pengelolaan produk, pencarian, filter, ringkasan jumlah stok, serta pencatatan barang masuk dan keluar. Setiap perubahan stok harus divalidasi dan dapat ditelusuri melalui riwayat transaksi agar kesalahan lebih mudah ditemukan.",
@@ -118,18 +118,18 @@ const briefs: Brief[] = [
     requirements: ["CRUD produk", "Pencarian dan filter", "Pencatatan perubahan stok", "Indikator stok minimum", "Ringkasan inventaris"],
     deliverables: ["Source code", "README", "Contoh data produk", "Screenshot dashboard"],
     skills: [
-      "Dashboard Development â€” ringkasan inventaris yang mudah dibaca.",
-      "CRUD \u0026 Database Design â€” pengelolaan produk dan stok.",
-      "Search \u0026 Filtering â€” pencarian dan filter produk.",
-      "Business Logic â€” pembaruan stok dan peringatan stok minimum.",
-      "Validation \u0026 Testing â€” validasi jumlah dan pengujian perubahan stok."
+      "Dashboard Development — ringkasan inventaris yang mudah dibaca.",
+      "CRUD \u0026 Database Design — pengelolaan produk dan stok.",
+      "Search \u0026 Filtering — pencarian dan filter produk.",
+      "Business Logic — pembaruan stok dan peringatan stok minimum.",
+      "Validation \u0026 Testing — validasi jumlah dan pengujian perubahan stok."
     ],
     tools: [
-      "React atau Next.js â€” antarmuka dashboard.",
-      "Node.js dan Express â€” API untuk pengelolaan data.",
-      "SQLite atau PostgreSQL â€” penyimpanan inventaris.",
-      "Git \u0026 GitHub â€” version control.",
-      "Chart.js â€” opsi untuk visualisasi data stok."
+      "React atau Next.js — antarmuka dashboard.",
+      "Node.js dan Express — API untuk pengelolaan data.",
+      "SQLite atau PostgreSQL — penyimpanan inventaris.",
+      "Git \u0026 GitHub — version control.",
+      "Chart.js — opsi untuk visualisasi data stok."
     ],
   },
   {
@@ -140,7 +140,7 @@ const briefs: Brief[] = [
     difficulty: "Medium",
     deadline: "4 hari",
     twist: "Pengguna harus tetap bisa mencatat kebiasaan saat offline.",
-    client: "Daymark â€” produk digital untuk membantu pengguna membangun rutinitas.",
+    client: "Daymark — produk digital untuk membantu pengguna membangun rutinitas.",
     problem: "Pengguna sering kehilangan konsistensi karena tidak punya cara sederhana untuk memantau rutinitas.",
     mission: "Buat aplikasi mobile untuk mengelola kebiasaan dan melihat progres harian.",
     projectOverview: "Daymark ingin membantu pengguna membangun kebiasaan melalui rutinitas kecil yang dapat dilacak setiap hari. Pengguna sering kehilangan konsistensi karena progres tersebar dalam catatan atau aplikasi yang terlalu rumit. Aplikasi harus membuat aktivitas harian mudah ditandai sekaligus memperlihatkan riwayat yang membantu pengguna mengevaluasi kebiasaan mereka. Bangun aplikasi mobile untuk membuat dan mengedit kebiasaan, menandai penyelesaian harian, serta melihat progres berdasarkan tanggal. Data harus tersimpan secara lokal sehingga pengguna tetap dapat menggunakan fitur utama tanpa koneksi internet, dan antarmuka harus membedakan hari yang belum diisi dari hari ketika kebiasaan memang tidak diselesaikan.",
@@ -148,18 +148,18 @@ const briefs: Brief[] = [
     requirements: ["Tambah dan edit kebiasaan", "Checklist harian", "Riwayat progres", "Penyimpanan lokal", "Empty state yang jelas"],
     deliverables: ["Source code", "README", "Screenshot aplikasi", "Demo atau rekaman singkat"],
     skills: [
-      "Mobile UI Development â€” layar daftar dan detail kebiasaan.",
-      "State Management â€” pembaruan checklist dan progres.",
-      "Local Data Persistence â€” penyimpanan data saat offline.",
-      "Date \u0026 Progress Logic â€” perhitungan progres harian.",
-      "Testing \u0026 UX â€” pengujian alur dan kondisi kosong."
+      "Mobile UI Development — layar daftar dan detail kebiasaan.",
+      "State Management — pembaruan checklist dan progres.",
+      "Local Data Persistence — penyimpanan data saat offline.",
+      "Date \u0026 Progress Logic — perhitungan progres harian.",
+      "Testing \u0026 UX — pengujian alur dan kondisi kosong."
     ],
     tools: [
-      "Flutter dan Dart â€” pengembangan aplikasi mobile.",
-      "SQLite atau penyimpanan lokal Flutter â€” data offline.",
-      "Android Studio â€” emulator dan debugging.",
-      "Git \u0026 GitHub â€” version control.",
-      "Flutter Test â€” pengujian fungsi dan antarmuka."
+      "Flutter dan Dart — pengembangan aplikasi mobile.",
+      "SQLite atau penyimpanan lokal Flutter — data offline.",
+      "Android Studio — emulator dan debugging.",
+      "Git \u0026 GitHub — version control.",
+      "Flutter Test — pengujian fungsi dan antarmuka."
     ],
   },
   {
@@ -170,7 +170,7 @@ const briefs: Brief[] = [
     difficulty: "Hard",
     deadline: "2 hari",
     twist: "Setiap grafik harus menjelaskan insight, bukan hanya menampilkan angka.",
-    client: "Finora â€” layanan keuangan digital yang ingin memahami pelanggan tidak aktif.",
+    client: "Finora — layanan keuangan digital yang ingin memahami pelanggan tidak aktif.",
     problem: "Tim belum bisa melihat pola pelanggan yang berpotensi berhenti menggunakan layanan.",
     mission: "Buat dashboard analisis data pelanggan dengan visualisasi dan ringkasan temuan.",
     projectOverview: "Finora ingin memahami karakteristik pelanggan yang berhenti menggunakan layanan agar tim dapat mengevaluasi strategi retensi. Data pelanggan yang tersedia belum memberikan gambaran yang mudah dipahami mengenai pola aktivitas, kelompok pelanggan, dan kemungkinan faktor yang berkaitan dengan churn. Tim membutuhkan analisis yang transparan, bukan sekadar grafik tanpa penjelasan atau klaim sebab-akibat yang tidak didukung data. Buat alur analisis yang mendokumentasikan dataset, membersihkan data, menghitung metrik churn, dan menampilkan visualisasi yang dapat dijelajahi. Setiap temuan harus menyertakan interpretasi, ukuran data yang digunakan, asumsi, dan keterbatasan agar hasilnya dapat dinilai secara kritis.",
@@ -178,18 +178,18 @@ const briefs: Brief[] = [
     requirements: ["Dataset yang terdokumentasi", "Pembersihan data", "Minimal tiga visualisasi", "Filter data", "Ringkasan insight"],
     deliverables: ["Source code atau notebook", "Dokumentasi dataset", "Dashboard atau laporan", "Kesimpulan analisis"],
     skills: [
-      "Data Cleaning â€” menangani data kosong dan duplikat.",
-      "Exploratory Data Analysis â€” menemukan pola pelanggan tidak aktif.",
-      "Data Visualization â€” memilih grafik yang tepat.",
-      "Insight Communication â€” menjelaskan temuan dan keterbatasan.",
-      "Data Quality â€” memeriksa kualitas data dan asumsi analisis."
+      "Data Cleaning — menangani data kosong dan duplikat.",
+      "Exploratory Data Analysis — menemukan pola pelanggan tidak aktif.",
+      "Data Visualization — memilih grafik yang tepat.",
+      "Insight Communication — menjelaskan temuan dan keterbatasan.",
+      "Data Quality — memeriksa kualitas data dan asumsi analisis."
     ],
     tools: [
-      "Python â€” bahasa untuk analisis data.",
-      "Pandas â€” pembersihan dan transformasi data.",
-      "Jupyter Notebook â€” dokumentasi analisis.",
-      "Matplotlib â€” visualisasi data.",
-      "Git \u0026 GitHub â€” version control dan dokumentasi."
+      "Python — bahasa untuk analisis data.",
+      "Pandas — pembersihan dan transformasi data.",
+      "Jupyter Notebook — dokumentasi analisis.",
+      "Matplotlib — visualisasi data.",
+      "Git \u0026 GitHub — version control dan dokumentasi."
     ],
   },
   {
@@ -200,7 +200,7 @@ const briefs: Brief[] = [
     difficulty: "Professional",
     deadline: "3 hari",
     twist: "Pipeline harus menghentikan deployment ketika pemeriksaan gagal.",
-    client: "ShipShape â€” tim kecil yang sering melakukan deployment manual.",
+    client: "ShipShape — tim kecil yang sering melakukan deployment manual.",
     problem: "Kesalahan saat rilis sulit dideteksi karena proses pengujian dan deployment belum konsisten.",
     mission: "Rancang pipeline otomatis yang menjalankan pemeriksaan sebelum aplikasi dirilis.",
     projectOverview: "ShipShape adalah tim pengembang kecil yang ingin mengurangi kesalahan ketika menyiapkan rilis aplikasi. Proses manual membuat pemeriksaan kualitas, pengujian, dan pembuatan build dilakukan secara tidak konsisten antarperubahan kode. Tim membutuhkan pipeline yang memberikan hasil pemeriksaan yang dapat dipahami dan mencegah perubahan yang gagal dalam pemeriksaan berlanjut ke tahap rilis. Rancang workflow CI yang berjalan pada perubahan repository, menjalankan pemeriksaan kode dan pengujian, lalu membangun aplikasi hanya jika tahap sebelumnya berhasil. Dokumentasikan cara membaca log, menangani kegagalan, mengelola konfigurasi secara aman, dan membuktikan bahwa pipeline berhasil maupun sengaja gagal ketika sebuah pemeriksaan tidak lolos.",
@@ -208,18 +208,18 @@ const briefs: Brief[] = [
     requirements: ["Repository dengan konfigurasi pipeline", "Tahap pemeriksaan otomatis", "Build aplikasi", "Penanganan kegagalan", "Dokumentasi proses"],
     deliverables: ["File konfigurasi pipeline", "Source code contoh", "README", "Bukti pipeline berhasil dan gagal"],
     skills: [
-      "CI/CD Design â€” menyusun tahapan pemeriksaan dan build.",
-      "Automated Testing â€” menjalankan tes sebelum rilis.",
-      "Build \u0026 Deployment â€” menyiapkan aplikasi untuk deployment.",
-      "Failure Handling â€” menghentikan pipeline jika pemeriksaan gagal.",
-      "Secrets \u0026 Documentation â€” menjaga rahasia konfigurasi dan mendokumentasikan alur."
+      "CI/CD Design — menyusun tahapan pemeriksaan dan build.",
+      "Automated Testing — menjalankan tes sebelum rilis.",
+      "Build \u0026 Deployment — menyiapkan aplikasi untuk deployment.",
+      "Failure Handling — menghentikan pipeline jika pemeriksaan gagal.",
+      "Secrets \u0026 Documentation — menjaga rahasia konfigurasi dan mendokumentasikan alur."
     ],
     tools: [
-      "Git \u0026 GitHub â€” repository dan pemicu pipeline.",
-      "GitHub Actions â€” menjalankan workflow CI/CD.",
-      "Node.js dan npm â€” contoh lingkungan build web.",
-      "ESLint dan TypeScript â€” pemeriksaan kode jika digunakan proyek.",
-      "Platform deployment pilihan â€” menjalankan aplikasi hasil build."
+      "Git \u0026 GitHub — repository dan pemicu pipeline.",
+      "GitHub Actions — menjalankan workflow CI/CD.",
+      "Node.js dan npm — contoh lingkungan build web.",
+      "ESLint dan TypeScript — pemeriksaan kode jika digunakan proyek.",
+      "Platform deployment pilihan — menjalankan aplikasi hasil build."
     ],
   },
   {
@@ -230,7 +230,7 @@ const briefs: Brief[] = [
     difficulty: "Professional",
     deadline: "2 hari",
     twist: "Setiap permainan baru harus menghasilkan susunan tantangan yang berbeda.",
-    client: "PixelForge â€” studio indie yang menguji prototipe game pendek.",
+    client: "PixelForge — studio indie yang menguji prototipe game pendek.",
     problem: "Studio membutuhkan prototipe sederhana untuk menguji apakah mekanik eksplorasi dan pertarungan terasa menarik.",
     mission: "Bangun game mini dengan pergerakan karakter, tantangan, dan sistem skor.",
     projectOverview: "PixelForge membutuhkan prototipe game pendek untuk mengevaluasi apakah eksplorasi dan tantangan berulang dapat terasa menarik dalam sesi bermain singkat. Prototipe harus memiliki tujuan yang mudah dipahami, kontrol yang konsisten, dan umpan balik yang jelas ketika pemain berhasil atau gagal. Susunan tantangan yang selalu sama akan mengurangi variasi, sehingga setiap permainan baru perlu menghasilkan tata letak atau kombinasi tantangan yang berbeda tetapi tetap dapat diselesaikan. Bangun game mini dengan pergerakan karakter, rintangan atau musuh, sistem skor, dan kondisi akhir permainan. Sertakan mekanisme mulai ulang yang mengatur ulang status permainan dan dokumentasikan kontrol serta batasan generator level.",
@@ -238,18 +238,18 @@ const briefs: Brief[] = [
     requirements: ["Kontrol karakter", "Sistem tantangan", "Kondisi menang atau kalah", "Skor permainan", "Restart permainan"],
     deliverables: ["Source code", "Build yang dapat dimainkan", "Instruksi kontrol", "Screenshot atau rekaman gameplay"],
     skills: [
-      "Gameplay Programming â€” gerakan dan interaksi karakter.",
-      "Game State Management â€” kondisi bermain, menang, dan kalah.",
-      "Procedural Generation â€” variasi susunan tantangan.",
-      "Collision \u0026 Scoring Logic â€” interaksi dan perhitungan skor.",
-      "Debugging \u0026 Playtesting â€” menguji kontrol dan restart."
+      "Gameplay Programming — gerakan dan interaksi karakter.",
+      "Game State Management — kondisi bermain, menang, dan kalah.",
+      "Procedural Generation — variasi susunan tantangan.",
+      "Collision \u0026 Scoring Logic — interaksi dan perhitungan skor.",
+      "Debugging \u0026 Playtesting — menguji kontrol dan restart."
     ],
     tools: [
-      "Godot dan GDScript â€” pilihan engine untuk prototipe 2D.",
-      "Godot Scene System â€” menyusun level dan objek game.",
-      "Git \u0026 GitHub â€” version control.",
-      "Godot Debugger â€” membantu menemukan masalah gameplay.",
-      "Screen recorder â€” merekam demo untuk portfolio."
+      "Godot dan GDScript — pilihan engine untuk prototipe 2D.",
+      "Godot Scene System — menyusun level dan objek game.",
+      "Git \u0026 GitHub — version control.",
+      "Godot Debugger — membantu menemukan masalah gameplay.",
+      "Screen recorder — merekam demo untuk portfolio."
     ],
   },
   {
@@ -260,7 +260,7 @@ const briefs: Brief[] = [
     difficulty: "Easy",
     deadline: "1 hari",
     twist: "Tool harus memberikan pesan error yang membantu pengguna memperbaiki input.",
-    client: "DevNest â€” komunitas developer yang ingin mengurangi pekerjaan repetitif.",
+    client: "DevNest — komunitas developer yang ingin mengurangi pekerjaan repetitif.",
     problem: "Developer menghabiskan waktu untuk tugas kecil yang sering dilakukan berulang kali.",
     mission: "Buat command-line tool yang mengotomatisasi satu tugas developer dengan input dan output yang jelas.",
     projectOverview: "DevNest ingin mengurangi waktu yang dihabiskan developer untuk menjalankan tugas kecil yang berulang. Perintah manual yang tidak konsisten dapat menyebabkan input salah, output sulit dibaca, dan proses yang sebenarnya sederhana menjadi memakan waktu. Tool yang dibuat harus menyelesaikan satu tugas spesifik dengan antarmuka perintah yang mudah dipahami dan perilaku yang dapat diprediksi. Bangun command-line utility yang menerima argumen, memvalidasi input, menjalankan operasi yang terdokumentasi, dan menghasilkan output yang konsisten. Ketika terjadi kesalahan, program harus memberikan pesan yang menjelaskan masalah dan cara memperbaikinya, serta menggunakan kode keluar yang sesuai agar dapat dipakai dalam otomasi.",
@@ -268,18 +268,18 @@ const briefs: Brief[] = [
     requirements: ["Argumen CLI", "Validasi input", "Output terstruktur", "Penanganan error", "Petunjuk penggunaan"],
     deliverables: ["Source code", "README", "Contoh perintah", "Contoh hasil output"],
     skills: [
-      "CLI Design â€” merancang perintah yang mudah digunakan.",
-      "Input Parsing \u0026 Validation â€” memvalidasi argumen dan format input.",
-      "Automation \u0026 File Handling â€” mengotomatisasi tugas repetitif.",
-      "Error Handling â€” pesan error yang membantu pengguna.",
-      "Testing \u0026 Documentation â€” menguji input dan mendokumentasikan penggunaan."
+      "CLI Design — merancang perintah yang mudah digunakan.",
+      "Input Parsing \u0026 Validation — memvalidasi argumen dan format input.",
+      "Automation \u0026 File Handling — mengotomatisasi tugas repetitif.",
+      "Error Handling — pesan error yang membantu pengguna.",
+      "Testing \u0026 Documentation — menguji input dan mendokumentasikan penggunaan."
     ],
     tools: [
-      "Python â€” bahasa untuk command-line tool.",
-      "argparse â€” memproses argumen perintah.",
-      "pytest â€” menguji input dan output.",
-      "Git \u0026 GitHub â€” version control dan dokumentasi.",
-      "PowerShell atau Bash â€” menjalankan dan menguji tool."
+      "Python — bahasa untuk command-line tool.",
+      "argparse — memproses argumen perintah.",
+      "pytest — menguji input dan output.",
+      "Git \u0026 GitHub — version control dan dokumentasi.",
+      "PowerShell atau Bash — menjalankan dan menguji tool."
     ],
   },
 ];
@@ -788,10 +788,10 @@ export default function QuestPage() {
     ...revealedBrief.deliverables.map((item) => `- [ ] ${item}`),
     "",
     `## Skills & Engineering Practices`,
-    ...revealedBrief.skills.map((item) => `- ${item.split(/\s+[â€”â€“-]\s+/)[0].trim()}`),
+    ...revealedBrief.skills.map((item) => `- ${item.split(/\s+[—–-]\s+/)[0].trim()}`),
     "",
     `## Tools & Technologies`,
-    ...revealedBrief.tools.map((item) => `- ${item.split(/\s+[â€”â€“-]\s+/)[0].trim()}`),
+    ...revealedBrief.tools.map((item) => `- ${item.split(/\s+[—–-]\s+/)[0].trim()}`),
   ].join("\n");
 
     try {
@@ -839,9 +839,9 @@ export default function QuestPage() {
       const addList = (items: string[], namesOnly = false) => {
         for (const item of items) {
           const label = namesOnly
-            ? item.split(/\s+[â€”â€“-]\s+/)[0].trim()
+            ? item.split(/\s+[—–-]\s+/)[0].trim()
             : item;
-          content.push({ text: `â€¢  ${label}`, size: 10.5, gapAfter: 4 });
+          content.push({ text: `•  ${label}`, size: 10.5, gapAfter: 4 });
         }
       };
 
@@ -969,12 +969,12 @@ export default function QuestPage() {
             window.setTimeout(() => setXpPopup(null), 3500);
           }}
         >
-          âœ¦ Uji Pop-up XP
+          ✦ Uji Pop-up XP
         </button>
       )}
       {xpPopup && (
         <div className="xp-reward-popup" role="status" aria-live="polite">
-          <div className="xp-reward-icon" aria-hidden="true">âœ¦</div>
+          <div className="xp-reward-icon" aria-hidden="true">✦</div>
           <div className="xp-reward-copy">
             <strong className="xp-reward-amount">
               +{xpPopup.amount.toLocaleString("id-ID")} XP
@@ -1007,7 +1007,7 @@ export default function QuestPage() {
 
       </header>
       <section className="quest-intro">
-        <Link href="/" className="back-link">â† Kembali ke beranda</Link>
+        <Link href="/" className="back-link">Kembali ke beranda</Link>
         <div className="quest-eyebrow">YOUR NEXT CHALLENGE STARTS HERE</div>
         <h1>
           Pilih bidangmu.
@@ -1047,7 +1047,7 @@ export default function QuestPage() {
               <span className="category-name">{category.name}</span>
               <span className="category-subtitle">{category.subtitle}</span>
               <span className="category-check">
-                {selectedCategory === category.id ? "âœ“" : "+"}
+                {selectedCategory === category.id ? "✓" : "+"}
               </span>
             </button>
           ))}
@@ -1057,11 +1057,11 @@ export default function QuestPage() {
       <section className="blindbox-section" aria-live="polite">
         <div className={`blindbox-art ${opening ? "is-opening" : ""} ${revealedBrief ? "is-revealed" : ""}`}>
           <div className="blindbox-aura" />
-          <span className="box-star star-a">âœ¦</span>
-          <span className="box-star star-b">âœ§</span>
-          <span className="box-star star-c">âœ¦</span>
+          <span className="box-star star-a">✦</span>
+          <span className="box-star star-b">✧</span>
+          <span className="box-star star-c">✦</span>
           <div className="blindbox-cube">
-            <div className="cube-lid"><span>âœ¦</span></div>
+            <div className="cube-lid"><span>✦</span></div>
             <div className="cube-front"><span>?</span></div>
             <div className="cube-side" />
           </div>
@@ -1100,10 +1100,10 @@ export default function QuestPage() {
               {opening
                 ? "Membuka..."
                 : revealedBrief
-                  ? "â—†  Buka Quest Lain"
-                  : "â—†  Buka Kotak Misteri"}
+                  ? "◆  Buka Quest Lain"
+                  : "◆  Buka Kotak Misteri"}
             </span>
-            {!opening && <span>â†’</span>}
+
           </button>
 
           {!opening && !revealedBrief && (
@@ -1125,7 +1125,7 @@ export default function QuestPage() {
               <h2>{revealedBrief.title}</h2>
             </div>
             <span className={`rarity-badge rarity-${revealedBrief.rarity.toLowerCase()}`}>
-              âœ¦ {revealedBrief.rarity}
+              ✦ {revealedBrief.rarity}
             </span>
           </div>
 
@@ -1137,7 +1137,7 @@ export default function QuestPage() {
           </div>
 
           <div className="twist-card">
-            <span className="twist-icon">âœ§</span>
+            <span className="twist-icon">✧</span>
             <div>
               <span>PROJECT TWIST</span>
               <p>{revealedBrief.twist}</p>
@@ -1160,7 +1160,7 @@ export default function QuestPage() {
               <h3>Requirements</h3>
               <ul className="brief-list">
                 {revealedBrief.requirements.map((item) => (
-                  <li key={item}><span>â—‡</span>{item}</li>
+                  <li key={item}><span>◇</span>{item}</li>
                 ))}
               </ul>
               <h3>Acceptance Criteria</h3>
@@ -1207,7 +1207,7 @@ export default function QuestPage() {
                 onClick={() => setQuestCompletion(revealedBrief, true)}
               >
                 {completedQuests[questKey(revealedBrief)]
-                  ? "âœ“ Quest Selesai"
+                  ? "✓ Quest Selesai"
                   : "Tandai Selesai"}
               </button>
               {checkedItems.length !== revealedBrief.deliverables.length &&
@@ -1225,7 +1225,7 @@ export default function QuestPage() {
 
               <ul className="brief-list brief-tag-list">
                 {revealedBrief.skills.map((item) => (
-                  <li key={item}>{item.split(/\s+[â€”â€“-]\s+/)[0].trim()}</li>
+                  <li key={item}>{item.split(/\s+[—–-]\s+/)[0].trim()}</li>
                 ))}
               </ul>
             </article>
@@ -1234,14 +1234,14 @@ export default function QuestPage() {
 
               <ul className="brief-list brief-tag-list">
                 {revealedBrief.tools.map((item) => (
-                  <li key={item}>{item.split(/\s+[â€”â€“-]\s+/)[0].trim()}</li>
+                  <li key={item}>{item.split(/\s+[—–-]\s+/)[0].trim()}</li>
                 ))}
               </ul>
             </article>
           </div>
           <div className="result-actions">
             <button className="copy-brief-button" onClick={copyBrief} type="button">
-              â†— Salin Brief
+              Salin Brief
             </button>
             <button className="copy-brief-button" onClick={exportBrief} type="button">
               Export PDF
@@ -1393,10 +1393,10 @@ export default function QuestPage() {
         </div>
         {questHistory.length === 0 ? (
           <div className="collection-empty">
-            <span aria-hidden="true">â—‡</span>
+            <span aria-hidden="true">◇</span>
             <h3>Belum ada quest tersimpan</h3>
             <p>Buka blind box untuk mulai mengumpulkan quest pertamamu.</p>
-            <a href="#category">Pilih kategori <span aria-hidden="true">â†’</span></a>
+            <a href="#category">Pilih kategori</a>
           </div>
         ) : (
           <div className="collection-grid">
@@ -1414,7 +1414,7 @@ export default function QuestPage() {
                     {categories.find((category) => category.id === brief.category)?.name ?? brief.category}
                   </span>
                   {completedQuests[questKey(brief)] && (
-                    <span className="quest-completed-badge">âœ“ Selesai</span>
+                    <span className="quest-completed-badge">✓ Selesai</span>
                   )}
                   <span className={`rarity-badge rarity-${brief.rarity.toLowerCase()}`}>
                     {brief.rarity}
@@ -1430,7 +1430,7 @@ export default function QuestPage() {
                   <span>Hadiah XP</span>
                   <strong>+{getXPForQuest(brief)} XP</strong>
                   {xpClaimedQuests[questKey(brief)] && (
-                    <span className="collection-xp-claimed">âœ“ Diklaim</span>
+                    <span className="collection-xp-claimed">✓ Diklaim</span>
                   )}
                 </div>
                 <div className="collection-progress">
@@ -1468,7 +1468,7 @@ export default function QuestPage() {
                   className="collection-open-button"
                   onClick={() => reopenQuest(brief)}
                 >
-                  Buka lagi <span aria-hidden="true">â†’</span>
+                  Buka lagi
                 </button>
 
               </article>
@@ -1497,11 +1497,11 @@ export default function QuestPage() {
             <p className="rarity-modal-eyebrow">BLIND BOX UNSEALED</p>
             <h2 id="rarity-modal-title">Kamu Mendapatkan...</h2>
             <div className="rarity-modal-emblem" aria-hidden="true">
-              {revealedBrief.rarity === "Common" && "â—†"}
-              {revealedBrief.rarity === "Rare" && "âœ¦"}
-              {revealedBrief.rarity === "Epic" && "âœ§"}
-              {revealedBrief.rarity === "Legendary" && "â™›"}
-              {revealedBrief.rarity === "Mythic" && "âœ¹"}
+              {revealedBrief.rarity === "Common" && "◆"}
+              {revealedBrief.rarity === "Rare" && "✦"}
+              {revealedBrief.rarity === "Epic" && "✧"}
+              {revealedBrief.rarity === "Legendary" && "♛"}
+              {revealedBrief.rarity === "Mythic" && "✹"}
             </div>
             <div className={`rarity-modal-badge rarity-${revealedBrief.rarity.toLowerCase()}`}>
               {revealedBrief.rarity}

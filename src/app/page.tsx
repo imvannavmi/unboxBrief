@@ -2,28 +2,28 @@
 const features = [
   {
     number: "01",
-    icon: "âœ³",
+    icon: "✳",
     title: "Tantangan Nyata",
     description:
       "Bangun proyek dengan kebutuhan dan batasan yang terasa seperti brief dari klien sungguhan.",
   },
   {
     number: "02",
-    icon: "âœ¦",
+    icon: "✦",
     title: "Rarity System",
     description:
       "Common hingga Legendary. Setiap kombinasi punya peluang dan tantangan yang berbeda.",
   },
   {
     number: "03",
-    icon: "â—·",
+    icon: "◷",
     title: "Batas Waktu",
     description:
       "Dari sprint singkat hingga proyek kompleks. Seberapa jauh kamu bisa melangkah?",
   },
   {
     number: "04",
-    icon: "âŒ˜",
+    icon: "⌘",
     title: "Build Your Portfolio",
     description:
       "Ubah brief yang kamu dapatkan menjadi proyek nyata untuk mengasah skill dan portfolio.",
@@ -35,11 +35,11 @@ function MysteryBox() {
     <div className="box-stage" aria-label="Ilustrasi kotak misteri unboxBrief">
       <div className="box-orbit orbit-one" />
       <div className="box-orbit orbit-two" />
-      <span className="spark spark-one">âœ¦</span>
-      <span className="spark spark-two">âœ§</span>
-      <span className="spark spark-three">âœ¦</span>
-      <span className="spark spark-four">âœ§</span>
-      <span className="spark spark-five">âœ¦</span>
+      <span className="spark spark-one">✦</span>
+      <span className="spark spark-two">✧</span>
+      <span className="spark spark-three">✦</span>
+      <span className="spark spark-four">✧</span>
+      <span className="spark spark-five">✦</span>
       <div className="box-glow" />
 
       <div className="mystery-box">
@@ -92,16 +92,6 @@ export default function Home() {
           <a href="#about" className="nav-link">
             About
           </a>
-        </div>
-
-
-              <div className="nav-auth">
-          <button type="button" className="nav-login">
-            Log In
-          </button>
-          <button type="button" className="nav-signup">
-            Sign In
-          </button>
         </div></nav>
 
       <section className="hero" id="home">
@@ -125,15 +115,15 @@ export default function Home() {
 
           <div className="hero-actions">
             <a href="/quest" className="button-primary">
-              Mulai Sekarang <span>â†’</span>
+              Mulai Sekarang
             </a>
             <a href="#about" className="button-secondary">
-              Cara Kerja <span>â†—</span>
+              Cara Kerja
             </a>
           </div>
 
           <div className="hero-note">
-            <span className="note-icon">âœ³</span>
+            <span className="note-icon">✳</span>
             No client needed. Just your skills and curiosity.
           </div>
         </div>
@@ -145,14 +135,14 @@ export default function Home() {
           </div>
           <MysteryBox />
           <div className="floating-card floating-card-top">
-            <span className="floating-icon purple">âœ¦</span>
+            <span className="floating-icon purple">✦</span>
             <span>
               <strong>Legendary?</strong>
               <small>Only one way to find out</small>
             </span>
           </div>
           <div className="floating-card floating-card-bottom">
-            <span className="floating-icon cyan">â—·</span>
+            <span className="floating-icon cyan">◷</span>
             <span>
               <strong>Time is ticking</strong>
               <small>Your deadline, your challenge</small>
@@ -197,7 +187,7 @@ export default function Home() {
               <p>{feature.description}</p>
               <div className="feature-bottom">
                 <span>DISCOVER MORE</span>
-                <span className="feature-arrow">â†—</span>
+
               </div>
             </article>
           ))}
